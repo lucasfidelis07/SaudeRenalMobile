@@ -3,7 +3,7 @@
  ```bash
    https://nodejs.org/pt
    ```
-3. Com o projeto em mãos, dentro do terminal, execute npm install
+3. Com o projeto em mãos, dentro do terminal, execute ```bash npm install```
 4. Recomendado instalar algum emulador de Android para testes (Android Studio,
 BlueStacks ou MEMU) para simular um telefone e poder testar.
 5. Instale o Expo Go SDK 51 para poder testar o software em:
