@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Saúde Renal",
+    "slug": "DoencaRenal",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./images/rim.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/rim.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.luquinhasreal.saude_renal"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "005f2563-c2aa-4da8-a885-80a9194c588b"
+      }
+    },
+    "owner": "luquinhasreal"
+  }
+}
